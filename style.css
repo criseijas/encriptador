@@ -60,7 +60,7 @@ body{
     border-radius: 24px;
     color: white;
     border: 1px solid #0A3871;
-    
+    cursor: pointer;
 }
 
 .btndesencriptar{
@@ -70,7 +70,7 @@ body{
     border-radius: 24px;
     color: #0A3871;
     border: 1px solid #0A3871;
-    
+    cursor: pointer;
 }
 
 .right{
@@ -98,12 +98,14 @@ body{
     color: #0A3871;
     border: none;
     outline: none;
-    /*background: #F3F5FC;*/
+    font-size: 20px;
     background-color: white;
+    margin-top: 3%;
 }
 
 .btncopiar{
     margin-left: 10%;
+    margin-top: 95%;
     width: 300px;
     height: 60px;
     background: #D8DFE8;
@@ -111,6 +113,7 @@ body{
     color: #0A3871;
     border: 1px solid #0A3871;
     display: none;
+    cursor: pointer;
 }
 
 
